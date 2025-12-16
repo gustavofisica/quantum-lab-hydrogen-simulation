@@ -1,14 +1,14 @@
 # Quantum Lab - Hydrogen Simulation
 
-An interactive simulation of the hydrogen atom using quantum mechanics.
+An interactive simulation of the hydrogen atom using quantum mechanics. Explore the electron wave function in the browser with a 3D point cloud visualization and detailed 2D planar slices. Full control over quantum numbers (n, l, m), axis visualization, and slice offsets to reveal orbital structures.
 
 ## About
 
-This project presents a visualization of the quantum dynamics of the hydrogen atom, allowing you to explore fundamental concepts of quantum mechanics interactively.
+This project provides a visualization of the quantum dynamics of the hydrogen atom, allowing you to explore fundamental concepts of quantum mechanics interactively. Switch between immersive 3D volumetric rendering and analytical 2D cross-sections to understand atomic orbitals.
 
 ## How to Use
 
-You can test the simulation in two ways:
+You can test the simulation in multiple ways:
 
 ### 1. GitHub Pages
 The simulation is available at: [https://gustavofisica.github.io/quantum-lab-hydrogen-simulation](https://gustavofisica.github.io/quantum-lab-hydrogen-simulation)
@@ -25,6 +25,15 @@ cd quantum-lab-hydrogen-simulation
 # Open index.html in your browser
 ```
 
+## Features
+
+- **3D Visualization**: Monte Carlo point cloud rendering of electron density
+- **2D Slicing**: Cross-sectional views with adjustable offsets
+- **Full Quantum Control**: Adjust principal (n), angular momentum (l), and magnetic (m) quantum numbers
+- **Multiple Color Palettes**: Magma, Cyberpunk, Radioactive, Ice, and Sunset themes
+- **Interactive Controls**: Zoom, pan, and rotate for detailed exploration
+- **Quality Settings**: Adjustable resolution for performance optimization
+
 ## Files
 
 - `index.html` - Main application structure
@@ -33,10 +42,10 @@ cd quantum-lab-hydrogen-simulation
 
 ## Technologies
 
-- HTML5
+- HTML5 Canvas & WebGL (Three.js)
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript (Vanilla ES6+)
 
 ## Author
 
-Luis Gustavo de Matos dos Santos
+Gustavo Física
